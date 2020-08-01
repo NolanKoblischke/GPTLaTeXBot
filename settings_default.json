@@ -1,0 +1,5 @@
+{
+	"botToken": "INSERT_botToken",
+	"serverId": "INSERT_serverId",
+	"gpt3_api_key": "INSERT_gpt3_api_key"
+}
