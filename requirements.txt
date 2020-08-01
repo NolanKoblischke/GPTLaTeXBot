@@ -1,0 +1,4 @@
+openai
+discord
+sympy
+cv2
