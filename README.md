@@ -21,5 +21,5 @@ Run this bot initially to produce `settings.json` file.  Then edit 'settings.jso
 
 
 
-Bibliography
+### Bibliography
 DXsmiley, [MathBot](https://github.com/DXsmiley/mathbot)
