@@ -8,7 +8,7 @@ This is a [Discord](https://discordapp.com/) bot that renders LaTeX formula from
 
 This bot can be invoked with `!tex formula description`. 
 
-Example: `!tex The integral from a to b of x^2 - x dx`
+Example: `!tex The integral from a to b of x^2 - 2 dx`
 
 ![example](/example.png)
 
