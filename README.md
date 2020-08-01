@@ -14,7 +14,7 @@ Example: `!tex The integral from a to b of x^2 - 2 dx`
 
 ## Running
 
-To run the bot, you need [MiKTeX](https://miktex.org/download), [discord.py](https://github.com/Rapptz/discord.py), and openai GPT-3 access(Not publically available)
+To run the bot, you need [MiKTeX](https://miktex.org/download), [discord.py](https://github.com/Rapptz/discord.py), [cv2](https://pypi.org/project/opencv-python/) and openai GPT-3 access(Not publically available)
 
 ## Settings
 
