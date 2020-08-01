@@ -4,7 +4,7 @@
 
 This is a [Discord](https://discordapp.com/) bot that renders LaTeX formula from plain textual descriptions.
 
-## Invocation
+## Usage
 
 This bot can be invoked with `!tex formula description`. 
 
