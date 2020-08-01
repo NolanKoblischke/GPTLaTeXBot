@@ -1,4 +1,4 @@
-** This bot is in beta and OpenAI's GPT-3 Access is needed. Currently you cannot publically deploy this bot with permission from OpenAI ** 
+**This bot is in beta and OpenAI's GPT-3 Access is needed. Currently you cannot publically deploy this bot with permission from OpenAI** 
 
 # Discord GPT-3 LateX Bot
 
