@@ -29,7 +29,9 @@ async def on_message(message):
         channel = bot.get_channel(int(settings['serverId']))
 
         try:
-            latex = "$$" + gpt.generate(tex).strip().split("\n")[0] + "$$"  # Generate LaTeX from text and format
+            latexRaw = gpt.generate(tex).strip().split("\n")[0]
+            await channel.send("`"+latexRaw+"`")
+            latex = "$$" + latexRaw + "$$"  # Generate LaTeX from text and format
             print("Generated LaTeX: " + latex)
         except AttributeError:
             await channel.send("Failed: GPT-3 server is overloaded, try again later")
