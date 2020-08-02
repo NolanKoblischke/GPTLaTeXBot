@@ -15,6 +15,10 @@ bot = commands.Bot(command_prefix='.')
 async def on_ready():
     print("text2LaTeX bot is online.")
     print('Logged in as {0.user}'.format(bot))
+    await bot.wait_until_ready()
+    channel = bot.get_channel(int(settings['serverId']))
+    await channel.send("LaTeX Bot is live.")
+
 
 
 # When a message is received convert message contents to LaTeX then reply with LaTeX png
@@ -30,7 +34,7 @@ async def on_message(message):
 
         try:
             latexRaw = gpt.generate(tex).strip().split("\n")[0]
-            await channel.send("`"+latexRaw+"`")
+            await channel.send("```"+latexRaw+"```")
             latex = "$$" + latexRaw + "$$"  # Generate LaTeX from text and format
             print("Generated LaTeX: " + latex)
         except AttributeError:
